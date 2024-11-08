@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.game-container {
+    max-width: 300px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.game-board {
+    margin-bottom: 20px;
+}
+
+.choice {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.choice:hover {
+    background-color: #444;
+}
+
+.result {
+    margin-top: 20px;
+}
+
+#user-choice,
+#computer-choice {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#result-text {
+    font-size: 24px;
+    font-weight: bold;
+}
